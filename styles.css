@@ -11,7 +11,7 @@ body {
 
 .main {
   width: 404px;
-  height: 394px;
+  height: 450px; /* Ajusté la altura para incluir el botón de reiniciar */
   border-radius: 25px;
   background-color: #7e4280;
   padding: 20px;
@@ -24,7 +24,6 @@ body {
 body.pomodoro {
   background-color: #7b287d;
 }
-
 
 .botones {
   display: flex;
@@ -77,89 +76,3 @@ body.pomodoro {
 .botonsin:hover {
   opacity: 0.8;
 }
-
-/*
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #7b287d;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  transition: background-color 0.5s;
-}
-
-body.descanso {
-  background-color: #98d2a2;
-}
-
-.main {
-  width: 404px;
-  height: 394px;
-  border-radius: 25px;
-  background-color: #7e4280;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  transition: background-color 0.5s;
-}
-
-body.descanso .main {
-  background-color: #cbf3d2;
-}
-
-.botones {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.botonPomodoro, .botonDescanso {
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  color: #000;
-}
-
-.botonPomodoro {
-  background-color: #cbf3d2;
-}
-
-.botonDescanso {
-  background-color: #98d2a2;
-}
-
-.timer {
-  font-size: 110px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #000;
-}
-
-.botonsin {
-  width: 201px;
-  height: 61px;
-  background-color: #fff;
-  color: #7E4280;
-  border: none;
-  border-radius: 10px;
-  font-size: 24px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: color 0.5s;
-}
-
-body.descanso .botonsin {
-  color: #98d2a2;
-}
- */ 
